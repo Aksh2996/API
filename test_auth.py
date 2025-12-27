@@ -1,7 +1,7 @@
 def test_auths(req_res_helper):
     payload = {
         "email": "eve.holt@reqres.in",
-        "password": "cityslic"
+        "password": "citysli"
     }
     headers = {
         "x-api-key": "reqres-free-v1",  # ← add this header
